@@ -1,4 +1,4 @@
-# Course managements tests in automated pipeline
+# Course management tests in automated pipeline
 
 In addition to tests in the students repo, the course management can add extra tests in a repo like this that will further test the students implementation.  
 
@@ -27,11 +27,11 @@ COPY . .
 CMD [ "npm", "test" ]
 ~~~
 
+### Sample repo
+A sample repo that fulfills this standard can be found [here](https://github.com/tommykronstal/tests)
+
 ### tl;dr
 A test repo with the following files
 
 * ```[testname].tests.js``` one or more test files
 * ```Dockerfile-override```to package the app and run tests 
-
-### Sample repo
-A sample repo that fulfills this standard can be found [here](https://github.com/tommykronstal/tests)
