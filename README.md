@@ -32,3 +32,6 @@ A test repo with the following files
 
 * ```[testname].tests.js``` one or more test files
 * ```Dockerfile-override```to package the app and run tests 
+
+### Sample repo
+A sample repo that fulfills this standard can be found [here](https://github.com/tommykronstal/tests)
