@@ -26,3 +26,9 @@ COPY . .
 
 CMD [ "npm", "test" ]
 ~~~
+
+### tl;dr
+A test repo with the following files
+
+* ```[testname].test.js``` one or more test files
+* ```Dockerfile-override```to package the app and run tests 
